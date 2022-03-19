@@ -12,10 +12,16 @@ The dataset contains 14major variables that will be having an impact on whether 
 
 2.Location:which part in the Country.  
 
-3.Age: Classification of the age group for each person, based on WHO Age Group Standard.
-4.Gender:Male or Female .
-5.Visited_Wuhan: whether the personhas visited Wuhan, China or not.
-6.From_Wuhan:whether the personis fromWuhan, China or not.
-7.Symptoms:there are six families of symptoms that are coded in six fields.
-13.Time_before_symptoms_appear.
+3.Age: Classification of the age group for each person, based on WHO Age Group Standard.  
+
+4.Gender:Male or Female .  
+
+5.Visited_Wuhan: whether the personhas visited Wuhan, China or not.  
+
+6.From_Wuhan:whether the personis fromWuhan, China or not.  
+
+7.Symptoms:there are six families of symptoms that are coded in six fields.  
+
+13.Time_before_symptoms_appear.  
+
 14.Result: death (1) or recovered (0).
