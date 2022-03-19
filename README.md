@@ -1,12 +1,12 @@
 # COVID-19-Outcome-Prediction
 Project Description
-The data used in this project will help to identify whether a person is going torecover from coronavirus symptomsor not based on some pre-defined standard symptoms. These symptoms are based on guidelines given by the World Health Organization (WHO).
+The data used in this project will help to identify whether a person is going to recover from coronavirus symptoms or not based on some pre-defined standard symptoms. These symptoms are based on guidelines given by the World Health Organization (WHO).
 
 This dataset has daily level information on the number of affected cases, deaths and recovery from 2019 novel coronavirus. Please note that this is a time series data and so the number of cases on any given day is the cumulative number.
 
 The data is available from 22 Jan, 2020.Data is in “data.csv”.
 
-The dataset contains 14major variables that will be having an impact on whether someone has recovered or not, the description of each variable are as follows,
+The dataset contains 14 major variables that will be having an impact on whether someone has recovered or not, the description of each variable are as follows:
 
 1.Country:where the person resides.  
 
@@ -24,4 +24,13 @@ The dataset contains 14major variables that will be having an impact on whether 
 
 13.Time_before_symptoms_appear.  
 
-14.Result: death (1) or recovered (0).
+14.Result: death (1) or recovered (0).  
+
+the data has been divided into three partitions: training, validation, and testing.
+We applied Thses Classifiers 
+1.K-Nearest Neighbors  
+2.Logistic Regression  
+3.NaïveBayes  
+4.Decision Trees  
+5.Support Vector Machines  
+Foreach classifier, try to find the optimal hyperparameters.You also need to compare the performance of all classifiers using different metrics such as the precision, recall, F1-score, andROC/AUC curves.
