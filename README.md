@@ -26,11 +26,13 @@ The dataset contains 14 major variables that will be having an impact on whether
 
 14.Result: death (1) or recovered (0).  
 
-the data has been divided into three partitions: training, validation, and testing.
-We applied Thses Classifiers 
+the data has been divided into three partitions: training, validation, and testing.  
+
+We applied Thses Classifiers:   
 1.K-Nearest Neighbors  
 2.Logistic Regression  
 3.NaïveBayes  
 4.Decision Trees  
 5.Support Vector Machines  
-Foreach classifier, try to find the optimal hyperparameters.You also need to compare the performance of all classifiers using different metrics such as the precision, recall, F1-score, andROC/AUC curves.
+
+Foreach classifier, We got optimal hyperparameters.We also need to compare the performance of all classifiers using different metrics such as the precision, recall, F1-score, andROC/AUC curves.
