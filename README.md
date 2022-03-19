@@ -28,7 +28,7 @@ The dataset contains 14 major variables that will be having an impact on whether
 
 the data has been divided into three partitions: training, validation, and testing.  
 
-<h2>We applied Thses Classifiers:  <h2>
+<h2>We applied Thses Classifiers:<h2>  
 1.K-Nearest Neighbors  
 2.Logistic Regression  
 3.NaïveBayes  
